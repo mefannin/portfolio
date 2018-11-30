@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/>
-        <meta charset="utf-8">
-        <title>Megan Fannin's Engineering Portfolio</title>
+        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/> <!--links code to bootstrap-->
+        <meta charset="utf-8"> <!--sets correct language characters-->
+        <title>Megan Fannin's Engineering Portfolio</title> <!--names title of website on tab-->
     </head>
     <body>
         <header>
             <div class="container">
                 <nav class="nav nav-pills nav-fill">
-                    <a class="nav-item nav-link" href="index.html">Home</a> <!--creates navigation-->
+                    <a class="nav-item nav-link" href="index.html">Home</a> <!--creates navigation with appropriate links-->
                     <a class="nav-item nav-link" href="Fannin_AboutMe.html">About Me</a>
-                    <a class="nav-item nav-link active" href="Fannin_Resume.html">Resume/Work Experience</a>
+                    <a class="nav-item nav-link active" href="Fannin_Resume.html">Resume/Work Experience</a> <!--makes section active with blue indicator-->
                     <a class="nav-item nav-link" href="Fannin_Projects.html">Projects</a>
                     <a class="nav-item nav-link" href="Fannin_ContactMe.html">Contact Me</a>
                 </nav>
             </div>
-        </header>
-        <section></section>
-            <div class="container">
-                <h1><strong>Resume</strong></h1>
-                <a class="active" href="Resume 2018-2019.pdf">Click here to view my resume!</a>
+            <div class="jumbotron text-center"> <!--sets jumbotron at top of screen with title-->
+                <h1><strong>Resume/Work Experience</strong></h1>
             </div>
-            <div class="container">
-                <h1><strong>Work Experience</strong></h1>
+        </header>
+            <div class="container" style="margin: 20px;">  <!--makes heading for resume section with some extra space-->
+                <h1>Resume</h1>
+                <a class="active" href="Resume 2018-2019.pdf" target="_blank">Click here to view my resume!</a> <!--link embedded in text to external pdf-->
+            </div>
+            <div class="container" style="margin: 20px;"> <!--creates heading for work experience with extra space, follows with paragraph-->
+                <h1>Work Experience</h1>
                 <p>During my time in my engineering class at school, I have been 
                 given the opportunity to go on many educational field trips. One 
                 trip that stood out to me was when I went to visit the Patriot Jet 
@@ -87,27 +89,25 @@
                 more important than skill. As long as I continue to have a positive 
                 attitude and exert my full effort. I can complete any task.</p>
             </div>
-        </section>
+        <hr class="featurette-divider"> <!--creates small line dividing section from footer-->
         <footer class="container">
-            <div class="jumbotron">
                 <div class="row">
-                    <div class="col-3">
-                        <a href="mailto:mefannin@gmail.com">
+                    <div class="col-3">  <!--makes footer with 3 individual columns containing icons with external links-->
+                        <a href="mailto:mefannin@gmail.com" target="_blank">
                            <img src="images/mail.png" alt="Mail Logo" style='max-width:100px; max-height:100px'/> 
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/">
+                        <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/" target="_blank">
                             <img src="images/in.svg" alt="Linkedin Logo" style='max-width: 100px; max-height:100px'/>
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="http://www.dublin.k12.ca.us/dhs">
+                        <a href="http://www.dublin.k12.ca.us/dhs" target="_blank">
                            <img src="images/dublinhigh.jpg" alt="Dublin High Logo" style='max-width: 200px; max-height:200px'/>
                         </a>
                     </div>
                 </div>
-            </div>
         </footer>
     </body>
 </html>

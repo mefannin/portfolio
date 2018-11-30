@@ -1,73 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/>
-        <meta charset="utf-8">
-        <title>Megan Fannin's Engineering Portfolio</title>
+        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/> <!--links code to bootstrap-->
+        <meta charset="utf-8"> <!--sets correct language characters-->
+        <title>Megan Fannin's Engineering Portfolio</title> <!--names title of website on tab-->
     </head>
     <body>
-        <header>
+      <header>
         <div class="container">
             <nav class="nav nav-pills nav-fill">
-                <a class="nav-item nav-link active" href="index.html">Home</a> <!--creates navigation-->
-                <a class="nav-item nav-link" href="Fannin_AboutMe.html">About Me</a>
+                <a class="nav-item nav-link active" href="index.html">Home</a>   <!--makes navigation with links to appropriate pages-->  <!--makes Home section active with blue indicator-->
+                <a class="nav-item nav-link" href="Fannin_AboutMe.html">About Me</a> 
                 <a class="nav-item nav-link" href="Fannin_Resume.html">Resume/Work Experience</a>
                 <a class="nav-item nav-link" href="Fannin_Projects.html">Projects</a>
                 <a class="nav-item nav-link" href="Fannin_ContactMe.html">Contact Me</a>
             </nav>
         </div>
-        <div class="jumbotron">
-            <h1>Megan Fannin's Engineering Portfolio</h1>
+        <div class="jumbotron"> <!--makes jumbotron at top of screen with title of page and small linked information-->
+            <h1><strong>Megan Fannin's Engineering Portfolio</strong></h1>
             <p>Hello! My name is Megan Fannin and I am currently a junior in high school.</p>
             <a class="active" href="Fannin_AboutMe.html">Continue reading...</a>
         </div>
-        </header>
+        </header> 
         <section class="container">
-            <div class="row mb-2">
-                <div class="col-md-6">
-                    <div class="card flex-md-row mb-4">
+            <div class="row mb-2"> <!--makes row have margin space on the bottom-->
+                <div class="col-md-6">   <!--fits content into 6 columns for a computer screen-->
+                    <div class="card flex-md-row mb-4"> <!--makes the rows flexible with additional margin space-->
                         <div class="card-body d-flex- flex-column align-items-start">
                             <h6 class="card-subtitle"><strong>Projects</strong></h6>
                             <h5 class="card-title">Machine Control Design Project</h5>
                             <h6 class="card-subtitle">POE</h6>
-                            <p class="card-text">The main objective of this project was to...</p>
+                            <p class="card-text">The objective of this project was to...</p>
                             <a href="Fannin_Projects.html" class="card-link">Click here to see the project!</a>
                         </div>
-                        <img class="card-img-right flex-auto d-none d-md-block" src="images/machineproject.JPG" style="max-width: 200px; max-height:200px"/>
-                    </div>
+                        <img class="card-img-right flex-auto d-none d-md-block" src="images/machinepic3.JPG" style="max-width: 200px; max-height:200px"/>
+                    </div>   <!--inserts image into card, makes it flexible so it sits on right hand side-->
                 </div>
                 <div class="col-md-6">
-                    <div class="card flex-md-row mb-4">
+                    <div class="card flex-md-row mb-4">  <!--same exact code instructions as card above-->
                         <div class="card-body d-flex- flex-column align-items-start">
-                            <h6 class="card-subtitle"><strong>Projects</strong></h6>
-                            <h5 class="card-title">Solar Hydrogen Project</h5>
-                            <h6 class="card-subtitle">POE</h6>
-                            <p class="card-text">The main objective of this project was to...</p>
-                            <a href="Fannin_Projects.html" class="card-link">Click here to see the project!</a>
+                            <h6 class="card-subtitle"><strong>Resume/Work Experience</strong></h6>
+                            <h5 class="card-title">Current Resume</h5>
+                            <h6 class="card-subtitle">2018-2019 School Year</h6>
+                            <p class="card-text">My resume consists of...</p>
+                            <a href="Fannin_Resume.html" class="card-link">Click here to see my resume!</a>
                         </div>
-                        <img class="card-img-right flex-auto d-none d-md-block" src="images/solarhydrogen.jpg" style="max-width: 200px; max-height:200px"/>
+                        <img class="card-img-right flex-auto d-none d-md-block" src="images/resume.png" style="max-width: 200px; max-height:200px"/>
                     </div>
                 </div>
             </div>
         </section>
+        <hr class="featurette-divider"> <!--creates small line dividing section from footer-->
         <footer class="container">
-            <div class="jumbotron">
-                <div class="row">
-                    <div class="col-3">
-                        <a href="mailto:mefannin@gmail.com">
-                           <img src="images/mail.png" alt="Mail Logo" style='max-width:100px; max-height:100px'/> 
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/">
-                            <img src="images/in.svg" alt="Linkedin Logo" style='max-width: 100px; max-height:100px'/>
-                        </a>
-                    </div>
-                    <div class="col-3">
-                        <a href="http://www.dublin.k12.ca.us/dhs">
-                           <img src="images/dublinhigh.jpg" alt="Dublin High Logo" style='max-width: 200px; max-height:200px'/>
-                        </a>
-                    </div>
+            <div class="row">
+                <div class="col-3"> <!--fits icons into 3 individual columns with external links-->
+                    <a href="mailto:mefannin@gmail.com" target="_blank">
+                        <img src="images/mail.png" alt="Mail Logo" style='max-width:100px; max-height:100px'/> 
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/" target="_blank">
+                        <img src="images/in.svg" alt="Linkedin Logo" style='max-width: 100px; max-height:100px'/>
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="http://www.dublin.k12.ca.us/dhs" target="_blank">
+                        <img src="images/dublinhigh.jpg" alt="Dublin High Logo" style='max-width: 200px; max-height:200px'/>
+                    </a>
                 </div>
             </div>
         </footer>

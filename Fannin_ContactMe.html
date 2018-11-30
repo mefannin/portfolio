@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/>
-        <meta charset="utf-8">
-        <title>Megan Fannin's Engineering Portfolio</title>
+        <link type='text/css' rel='stylesheet' href='bootstrap-4.1.2-dist/css/bootstrap.css'/> <!--links code to bootstrap-->
+        <meta charset="utf-8"> <!--sets correct language characters-->
+        <title>Megan Fannin's Engineering Portfolio</title> <!--names title of website on tab-->
     </head>
     <body>
         <header>
             <div class="container">
-                <nav class="nav nav-pills nav-fill">
-                    <a class="nav-item nav-link" href="index.html">Home</a> <!--creates navigation-->
+                <nav class="nav nav-pills nav-fill"> <!--creates navigation with appropriate links-->
+                    <a class="nav-item nav-link" href="index.html">Home</a> <!--makes section active with blue indicator-->
                     <a class="nav-item nav-link" href="Fannin_AboutMe.html">About Me</a>
                     <a class="nav-item nav-link" href="Fannin_Resume.html">Resume/Work Experience</a>
                     <a class="nav-item nav-link" href="Fannin_Projects.html">Projects</a>
                     <a class="nav-item nav-link active" href="Fannin_ContactMe.html">Contact Me</a>
                 </nav>
             </div>
-            <div class="container text-center">
+            <div class="jumbotron text-center"> <!--sets jumbotron at top of screen with page title-->
+                <h1><strong>Contact Me</strong></h1>
+            </div>
+            <div class="container text-center"> <!--makes heading with location and email-->
                 <h1>Location: Dublin, California</h1>
                 <h2>Email Me: mefannin@gmail.com</h2>
             </div>
         </header>
+        <hr class="featurette-divider"> <!--creates small line dividing section from footer-->
         <footer class="container">
-            <div class="jumbotron">
                 <div class="row">
-                    <div class="col-3">
-                        <a href="mailto:mefannin@gmail.com">
+                    <div class="col-3"> <!--creates footer with 3 individual icons and their external links-->
+                        <a href="mailto:mefannin@gmail.com" target="_blank">
                            <img src="images/mail.png" alt="Mail Logo" style='max-width:100px; max-height:100px'/> 
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/">
+                        <a href="https://www.linkedin.com/in/megan-fannin-a9a571161/" target="_blank">
                             <img src="images/in.svg" alt="Linkedin Logo" style='max-width: 100px; max-height:100px'/>
                         </a>
                     </div>
                     <div class="col-3">
-                        <a href="http://www.dublin.k12.ca.us/dhs">
+                        <a href="http://www.dublin.k12.ca.us/dhs" target="_blank">
                            <img src="images/dublinhigh.jpg" alt="Dublin High Logo" style='max-width: 200px; max-height:200px'/>
                         </a>
                     </div>
                 </div>
-            </div>
         </footer>
     </body>
 </html>
